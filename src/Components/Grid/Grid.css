@@ -1,0 +1,34 @@
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  thead th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    text-align: left;
+    padding: 1rem;
+    cursor: pointer;
+  }
+  
+  thead th i {
+    font-size: 0.7rem;
+    margin-left: 0.25rem;
+  }
+  
+  tbody td {
+    padding: 1rem;
+    border-bottom: 1px solid #ddd;
+  }
+  tbody tr:last-child td {
+    border-bottom: none;
+  }
+  
+  .grid-row{
+    cursor: pointer;
+  }
